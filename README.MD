@@ -2,5 +2,5 @@ Projeto simples de JavaScript que exerce funções de condição e manipulação
 
 
 <p align="center">
-  ![Site Preview](https://media.giphy.com/media/oUbC0SsIboO2DwPfpc/giphy.gif)
+  <img src="https://media.giphy.com/media/oUbC0SsIboO2DwPfpc/giphy.gif" alt="site preview">
 </p>
