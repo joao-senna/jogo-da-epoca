@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Modelo Inicial</title>
+</head>
+<script src="scripts.js" defer></script>
+<body>
+    <header><h1>Jogo da época</h1></header>
+    <section>
+        <div class="topBox">
+            <p>Digite o ano: <input type="text" name="data" id="dataAno" placeholder="yyyy"></p>
+            <p>Selecione a Categoria:
+                <input type="radio" name="categoria" id="aventura" checked value="Aventura" onclick="atualizarRadio()">
+                <label for="aventura">Aventura</label>
+                <input type="radio" name="categoria" id="acao" value="Ação" onclick="atualizarRadio()">
+                <label for="acao">Ação</label>
+                <input type="radio" name="categoria" id="estrategia" value="Estratégia" onclick="atualizarRadio()">
+                <label for="estrategia">Estrategia</label>
+            </p>
+            <input type="button" value="Enviar" onclick="verificar()">
+        </div>
+        <div class="botBox">
+            <img src="imagens/base.png" alt="IMG Placeholder" class="foto">
+            <p class="resultado"><em>Aguardando entrada de dados...</em></p>
+        </div>
+    </section> 
+    <footer>
+        <p>Feito por João Senna, graças ao Gustavo Guanabara</p>
+    </footer>
+</body>
+</html>
